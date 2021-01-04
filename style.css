@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #04080F;
+}
+
+#info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  height: 100vh;
+}
+
+#info img {
+  width: 200px;
+  border-radius: 100px;
+  border: 5px solid #507DBC;
+  margin-bottom: 30px;
+}
+
+#info h1 {
+  color: #507DBC;
+  margin-bottom: 10px;
+}
+
+#info h3 {
+  color: #A1C6EA;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+#info a, 
+.btn-back-top {
+  color: #507DBC;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  width: 150px;
+  border: 3px solid #507DBC;
+  text-align: center; 
+  transition: background 0.5s;
+}
+
+
+#info a:hover,
+.btn-back-top:hover {
+  background-color: #507DBC;
+  color: #04080F;
+  font-weight: bold;
+}
+
+#info a:not(:last-of-type){
+  margin-bottom: 25px;
+}
+
+#projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#projects h1 {
+  color: #507DBC;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid #507DBC;
+  border-radius: 15px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.project a {
+  color: #BBD1EA;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px
+}
+
+.project img {
+  width: 400px;
+  height: 207px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.btn-back-top {
+  margin-bottom: 10px;
+}

@@ -87,7 +87,6 @@ body {
   flex-wrap: wrap;
 }
 
-
 .project {
   display: flex;
   flex-direction: column;
@@ -117,4 +116,31 @@ body {
 
 .btn-back-top {
   margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+
+  .projects-container {
+    flex-direction: column;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #507DBC;
+    border-radius: 15px;
+    margin-bottom: 30px;
+  }
+
+  .project img {
+    width: 200px;
+    height: 90px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .project a {
+    font-size: 12px
+  }
 }

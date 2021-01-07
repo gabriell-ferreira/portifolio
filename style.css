@@ -30,6 +30,7 @@ body {
   width: 200px;
   border-radius: 100px;
   margin-bottom: 30px;
+  border: none;
 }
 
 #info h1 {

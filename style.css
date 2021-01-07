@@ -158,15 +158,20 @@ body {
   .project img {
     width: 200px;
     height: 90px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
   }
 
   .project a {
-    font-size: 12px
+    font-size: 12px;
+    width: 100px
   }
 
   #info a {
     margin-bottom: 20px;
+  }
+
+  .project span {
+    color: #507DBC;
+    font-size: 18px;
+    margin: 5px 0 5px 0;
   }
 }

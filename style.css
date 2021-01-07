@@ -108,17 +108,32 @@ body {
 .project a {
   color: #BBD1EA;
   text-decoration: none;
-  width: 100%;
+  width: 200px;
   text-align: center;
   padding: 10px;
-  font-size: 18px
+  font-size: 18px;
+}
+
+.project a:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.project .links {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
 }
 
 .project img {
   width: 400px;
   height: 207px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+}
+
+.project span {
+  color: #507DBC;
+  font-size: 20px;
+  margin: 10px 0 10px 0;
 }
 
 .btn-back-top {

@@ -56,6 +56,7 @@ body {
   transition: background 0.5s;
   margin-right: 20px;
   margin-left: 20px;
+  border-radius: 10px
 }
 
 
@@ -141,6 +142,10 @@ body {
 }
 
 @media (max-width: 600px) {
+
+  .projects {
+    margin-top: 50px
+  }
 
   .projects-container {
     flex-direction: column;
